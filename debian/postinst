@@ -6,7 +6,7 @@ set -e
 
 TARGET_ARCH="$(dpkg --print-architecture)"
 VERSION="0.36.0"
-GECKODRIVER="usr/share/QRLJacker/geckodriver/"
+GECKODRIVER="usr/local/Library/Applications/QRLJacker/geckodriver/"
 
 if [ -e "$GECKODRIVER/geckodriver-$VERSION-$TARGET_ARCH" ];
 	ln -s $GECKODRIVER/geckodriver-$VERSION-$TARGET_ARCH /usr/local/bin/geckodriver || echo "Failed to create symlink"

@@ -1,3 +1,9 @@
+qrljacking (2.0-2) UNRELEASED; urgency=medium
+
+  * Change default install dir to /usr/local/Library/Applications make sure /usr/share still clean.
+
+ -- Joe <joe@rstrike.my.id>  Sat, 26 Apr 2025 14:25:10 +0000
+
 qrljacking (2.0-1) UNRELEASED; urgency=medium
 
   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
